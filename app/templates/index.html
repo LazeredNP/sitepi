@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css_index.css') }}">
+    <title>Fala Justa</title>
+</head>
+<body>
+  <section id="navbarSection">
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fala Justa</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Página inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Liberdade de expressão</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Discurso de ódio</a>
+                  </li>
+                </ul>
+        </nav>
+    </div>
+  </section>
+            <!-- INICIO DO SITE -->
+
+    <div class="Inicio_site">
+      <div id="container_img1"><img src="{{ url_for('static', filename='img/ImagemCabecalho.png') }}" alt="Descrição da imagem" id="imagem1"  class="img-fluid"></div>
+      <div class="frase_um">
+        <p class="title-inicio" id="Iniciotp">Entre a Liberdade e a Responsabilidade:</p>
+        <h3 class="Define_expressao" >Estabelecendo uma fronteira entre o discurso de ódio e as demais expressões</h3>
+        <div class="botao_saibamais">
+          <button type="button" class="btn btn-success">Saiba mais</button>
+        </div>
+    </div>
+    </div>  
+
+    
+
+      <!-- CARROSSEL DOS CARINHA LÁ -->
+       <div class="Carrossel">
+        <br>
+        <br>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 99</h5>
+                              <hr>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quae beatae tempore eveniet architecto molestiae molestias aperiam, eos soluta, deserunt vitae aliquid maiores repudiandae exercitationem dignissimos? Reiciendis, quam? Neque, ratione!</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 11</h5>
+                              <hr>
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nesciunt ratione iusto expedita temporibus tempore commodi, sunt enim laudantium consequuntur fugit ipsum, illo nostrum odit reiciendis pariatur repellendus iste natus.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 22</h5>
+                              <hr>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id. Cupiditate iusto, blanditiis deleniti quos corporis optio, quas illo nihil at enim, ipsam quae! Mollitia saepe provident accusantium dolor quia.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row justify-content-center">
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 33</h5>
+                              <hr>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo similique reprehenderit inventore reiciendis magni vitae quidem ex, amet aut doloremque itaque eos hic facilis minima officiis porro praesentium? Dolorem!</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 44</h5>
+                              <hr>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sed alias eos voluptatem! Reprehenderit non accusantium porro optio, qui et iusto nobis earum molestiae a ipsam atque commodi explicabo sunt.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="text-content">
+                              <h5>Fulano de tal 55</h5>
+                              <hr>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates reiciendis dolor sed eius inventore? In, accusantium id ipsa voluptas cumque odio provident! Pariatur provident adipisci iusto quis facilis nostrum perferendis!</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    <br>
+    <br>
+
+                  <!-- LIBERDADE DE EXPRESSÃO -->
+
+    <div class="Liberdade_expressao">
+      <div>
+        <img src="{{ url_for('static', filename='img/img_pi_2.png') }}" alt="Descrição da imagem" id="imagem2" class="img-float" class="img-fluid">
+      </div>
+      <h3 class="Define_expressao" id="h3doEntendendo">Definindo liberdade de expressão</h3>
+      <br>
+      <p class="text-definindo">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere suscipit odit voluptas optio saepe consequuntur dolorem, non perspiciatis sed blanditiis temporibus inventore minus, minima, atque nobis cupiditate modi accusantium earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione excepturi error ipsam non optio dicta blanditiis perspiciatis totam neque veritatis ea, quaerat nisi aliquid quod vitae consequuntur, laborum cum? Inventore.</p>
+      <button type="button" class="btn btn-light" id="button_entendamelhor">Entenda melhor!</button>
+    </div>
+
+                  <!-- PERGUNTAS FREQUENTES -->
+    <!-- <div class="conteinerDefinindo">
+      <div class="container mt-5">
+        <div class="row mb-5">
+            <div class="col-md-12 p-4" style="background-color: #b3e5fc; border-radius: 10px;">
+                <h3 id="h3doEntendendo">Definindo liberdade de expressão</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary">Entenda melhor!</button>
+            </div>
+        </div>
+    </div> -->
+    
+
+        <!-- Seção FAQ -->
+        <section id="duvidas_frequentes">
+          <div class="row">
+              <div class="col-md-4">
+                  <h1 class="duvidas">Dúvidas frequentes</h1>
+                  <p>Confira as dúvidas frequentes sobre o tema</p>
+              </div>
+              <div class="col-md-8">
+                  <div class="accordion" id="faqAccordion">
+                      <!-- Itens da Accordion -->
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Existem leis para me proteger do discurso de ódio?
+                              </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Sim, existem leis que protegem as pessoas contra discurso de ódio...
+                              </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Existem leis para proteger o meu direito de me expressar?
+                              </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Sim, há leis que garantem a liberdade de expressão, desde que...
+                              </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Qual a origem da frase "discurso de ódio"?
+                              </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  A frase "discurso de ódio" tem origem...
+                              </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Aonde posso procurar ajuda caso eu seja vítima?
+                              </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Você pode procurar ajuda de um advogado, polícia, ou outras...
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Fim dos Itens da Accordion -->
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- SOBRE A CONSTITUICAO -->
+    <div class="container_constituicao">
+      <br>
+      <center>
+        <h1 id="constituicao">Sobre a Constituição</h1>
+      </center>
+      <br>
+      <div class="row">
+          <div class="col-md-6 text-container">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, </p>
+          </div>
+          <div class="col-md-6 text-container">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, </p>
+          </div>
+      </div>
+    </div>
+
+    <!-- LIBERDADE DE EXPRESSAO -->
+
+    <div class="liberdadeexpressao">
+      <h1 id="titulo_liberdade">Liberade de Expressão</h1>
+      <br>
+      <center>
+        <p>Liberdade de expressão é o direito de qualquer indivíduo de se manifestar livremente, incluindo:</p>
+
+        <br>
+
+        <button type="button" class="btn btn-secondary btn-lg" id="botao1" data-bs-toggle="modal" data-bs-target="#JanelaModal">Opiniões</button>
+        <button type="button" class="btn btn-secondary btn-lg" id="botao1" data-bs-toggle="modal" data-bs-target="#JanelaModal">ideais</button>
+        <button type="button" class="btn btn-secondary btn-lg" id="botao1" data-bs-toggle="modal" data-bs-target="#JanelaModal">Pensamentos</button>
+
+        <br>
+        <br>
+        <br>
+        <h3>Sem medo de censura ou represálias.</h3>
+      </center>
+
+      <p id="text_liberdade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere numquam, quam temporibus amet debitis consequatur expedita dolorem quisquam odio perspiciatis nostrum necessitatibus rem porro ex nam adipisci blanditiis ea aut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore nihil earum iure voluptates ea quisquam commodi quia, velit iusto minus explicabo atque vero sapiente blanditiis asperiores voluptatibus voluptatem dolor aut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto deleniti hic atque nulla nam vero molestias, perferendis error asperiores maiores assumenda cumque sed omnis aliquid velit sunt in. Ipsum, aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolore tenetur sit veniam eligendi repellat tempora dignissimos sed, ipsam velit eum! Officia dignissimos aliquam numquam, accusamus ipsam pariatur adipisci voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores commodi repudiandae totam temporibus exercitationem, voluptate voluptatum voluptatibus libero amet, vero laborum possimus earum aspernatur unde non quibusdam voluptatem iusto.</p>
+
+      
+
+      <div id="JanelaModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+    
+            <div class="modal-header">
+              <h3 class="modal-title">Opiniões</h3>
+              <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatibus veritatis, ut ducimus alias dolorum nemo illum quos repudiandae debitis dolorem culpa porro, aliquam, placeat accusantium ad obcaecati! Eligendi, temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam totam, unde minima animi corrupti magni temporibus quidem libero aliquam vitae impedit, esse consequatur? Asperiores quia laborum debitis sequi esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, odio fugit. Ab accusantium, rerum debitis molestias odio officia, eveniet explicabo esse adipisci maxime dignissimos aliquid omnis. Dignissimos quia laudantium voluptatum!</p>
+            </div>
+    
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+      <div id="JanelaModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+    
+            <div class="modal-header">
+              <h3 class="modal-title">Ideais</h3>
+              <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatibus veritatis, ut ducimus alias dolorum nemo illum quos repudiandae debitis dolorem culpa porro, aliquam, placeat accusantium ad obcaecati! Eligendi, temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam totam, unde minima animi corrupti magni temporibus quidem libero aliquam vitae impedit, esse consequatur? Asperiores quia laborum debitis sequi esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, odio fugit. Ab accusantium, rerum debitis molestias odio officia, eveniet explicabo esse adipisci maxime dignissimos aliquid omnis. Dignissimos quia laudantium voluptatum!</p>
+            </div>
+    
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+      <div id="JanelaModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+    
+            <div class="modal-header">
+              <h3 class="modal-title">Pensamentos</h3>
+              <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatibus veritatis, ut ducimus alias dolorum nemo illum quos repudiandae debitis dolorem culpa porro, aliquam, placeat accusantium ad obcaecati! Eligendi, temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam totam, unde minima animi corrupti magni temporibus quidem libero aliquam vitae impedit, esse consequatur? Asperiores quia laborum debitis sequi esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, odio fugit. Ab accusantium, rerum debitis molestias odio officia, eveniet explicabo esse adipisci maxime dignissimos aliquid omnis. Dignissimos quia laudantium voluptatum!</p>
+            </div>
+    
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- DENUNCIAR -->
+    <br>
+    <br>
+
+    <div class="centralizado">
+      <div class="form-container">
+        <br>
+          <h3 class="text-center">Sabemos que sofrer com discursos de ódio não é fácil, mas estamos aqui para te ajudar a superar isso!</h3>
+          <br>
+          <div class="forms">
+            <br>
+            <form class="formulario">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="labell">Digite seu e-mail:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                    <small id="emailHelp" class="form-text text-muted">Seu e-mail não será compartilhado.</small>
+                </div>
+                <div class="form-GROUP">
+                    <label for="typeText" class="labell">Escreva seu relato:</label>
+                    <textarea name="relato" id="relato" placeholder="Digite seu relato"></textarea>
+                </div>
+                <br>
+                <center>
+                  <button type="submit" class="btn btn-secondary" id="button-enviar">Enviar</button>
+                </center>
+                <br>
+            </form>
+          </div>
+      </div>
+    </div>
+
+
+
+  <!-- <div>
+    <center>
+      <h3 class="text-center">Sabemos que sofrer com discursos de ódio não é fácil, mas estamos aqui para te ajudar a superar isso!</h3>
+    </center>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Digite seu e-mail:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+          <small id="emailHelp" class="form-text text-muted">Seu e-mail não será compartilhado.</small>
+        </div>
+        <div class="form-outline" data-mdb-input-init>
+          <label class="form-label" for="typeText">Escreva seu relato:</label>
+          <input type="text" id="typeText" class="form-control" placeholder="Digite seu relato"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div> -->
+  
+
+
+
+
+
+<div class="footer">
+  <div class="logoif">
+    <br>
+    <br>
+    <img src="{{ url_for('static', filename='img/LogoIFC.png') }}" alt="" class="" id="logoif">
+  </div>
+  <h3 class="titlefooter">Sobre o projeto:</h3>
+  <p class="textfooter">Lorem meu caraljdloi de asa nessa buycetadipisicing elit. Voluptatem corrupti, magnam corporis aspernatur et distinctio ipsa, maiores est deserunt magni, exercitationem amet illo esse numquam unde aliquid nesciunt id expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, itaque. Molestias id voluptate quis, est iusto assumenda. Itaque expedita voluptatibus, magnam, minima vel rerum voluptate illum perspiciatis aliquid minus officiis.</p>
+  <br>
+  <h3 class="titlefooter">Sobre os integrantes:</h3>
+  <p class="textfooter">A Clara é linda pipipipopopo...</p>
+
+
+</div>
+    
+</body>
+</html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/js_pi.js') }}"></script>
