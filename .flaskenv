@@ -1,0 +1,2 @@
+FLASK_APP=sitepi.py
+FLASK_ENV=delevopment

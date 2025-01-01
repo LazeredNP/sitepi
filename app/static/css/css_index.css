@@ -1,0 +1,322 @@
+#container_img1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.frase_um{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.Inicio_site{
+    align-content: center;
+}
+
+.botao_saibamais{
+    margin-left: 100px;
+}
+
+#imagem1 {
+    float: right;
+    margin-left: 5%;
+    margin-right: 20%;
+    width: 400px;
+    height: 400px;
+}
+
+.title-inicio {
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.text-inicio {
+    font-size: medium;
+    margin-left: 3%;
+}
+
+#navbar{
+    height: 100px; 
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Aumenta o tamanho do texto "Fala Justa" */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adiciona espaçamento entre os itens da navbar */
+}
+
+.navbar-nav .nav-link {
+    padding-right: 10px; /* Ajusta o espaçamento interno dos links da navbar */
+    padding-left: 10px;
+}
+
+
+.carousel-item {
+    margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333%);
+    }
+    .carousel-inner .carousel-item-prev,
+    .carousel-inner .carousel-item-start.active {
+        transform: translateX(-33.333%);
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+    .carousel-inner .carousel-item-prev,
+    .carousel-inner .carousel-item-start.active {
+        transform: translateX(-25%);
+    }
+}
+
+.text-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 250px; /* Aumenta a altura dos cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.carousel-item .col-md-4 {
+    max-width: 300px; /* Aumenta um pouco a largura dos cards */
+    margin: 0 10px;
+}
+
+.row.justify-content-center {
+    justify-content: center !important;
+}
+
+
+#carouselExample {
+    background-color: #3f6a78;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Liberdade_expressao {
+    background-color: #add1da;
+    height: 450px;
+    width: 80%; 
+    display: flexbox;
+    left: 10.5%;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 175px;
+    margin-bottom: 125px;
+    align-content: center;
+}
+
+.Define_expressao {
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 30%;
+    width: 90%;
+}
+
+.conteinerDefinindo{
+    display: block;
+}
+
+.text-definindo {
+    margin-left: 6%;
+    margin-right: 40%;
+}
+
+#button_entendamelhor {
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+#imagem2 {
+    width: 400px;
+    height: 400px;
+}
+
+.img-float {
+    float: right;
+    margin-top: 35px;
+    width: auto; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 50px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 30px 30px 30px 30px;
+}
+
+.text-float {
+    /* margin-top: 100px; */
+    overflow: hidden; /* Garante que o texto não ultrapasse a área flutuante */
+    font-size: 16px; /* Ajuste o tamanho do texto conforme necessário */
+}
+
+.duvidas {
+    margin-top: 15%;
+}
+
+/* Estilo para os botões de perguntas na accordion */
+.accordion-button {
+    background-color: #c8e2e9 !important; /* Cor de fundo das perguntas */
+    color: #000 !important;
+    border: none !important; /* Remove a borda para um visual mais suave */
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: #c8e2e9; /* Mantém a cor de fundo das perguntas ao expandir */
+}
+
+.accordion-body {
+    font-size: 1rem;
+    background-color: #e9faff;
+}
+
+/* p{
+    text-align: justify;
+} */
+
+/* Garantir espaçamento adequado entre as seções */
+.row.mb-5 {
+    margin-bottom: 25rem !important;
+}
+
+.container_constituicao {
+    margin-top: 5%;
+    background-color: #98b3ba;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.text-container {
+    padding: 10px;
+}
+.row {
+    display: flexbox;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+.col-md-6 {
+    padding-left: 100px; 
+    padding-right: 100px; 
+    font-size: larger;
+}
+
+#botao1 {
+    background-color: #3f6a78 !important;
+    margin-right: 10px;
+}
+
+.butoes {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    flex-wrap: wrap; /* Permite que os botões se ajustem em múltiplas linhas se necessário */
+    gap: 10px;
+}
+
+#titulo_liberdade {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#text_liberdade {
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.forms {
+    height: 100%;
+    width: 100%;
+    background-color: #3f6a78;
+    border-radius: 30px 30px 30px 30px ;
+}
+
+.centralizado {
+    background-color: #d6f0f7;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.formulario {
+    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#button-enviar {
+    background-color: #e9faff !important;
+    color: black !important;
+}
+
+.labell {
+    color: white !important;
+}
+
+#logoif {
+    float: right; /* Coloca a imagem à esquerda do texto */
+    width: 150px; /* Largura da imagem */
+    margin-right: 10%; /* Espaçamento entre a imagem e o texto */
+    height: auto; 
+}
+
+.footer {
+    background-color: #c8e2e9;
+    height: 350px;
+}
+
+.titlefooter {
+    margin-left: 3%;
+
+}
+
+.textfooter {
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+
+#h3doEntendendo{
+
+    margin-bottom: -75px;
+}
+
+textarea{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#duvidas_frequentes{
+    padding-left: 100px;
+    padding-right: 100px;
+}
