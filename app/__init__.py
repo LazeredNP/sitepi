@@ -1,8 +1,21 @@
 from flask import Flask, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 import os
+from flask_mail import Mail, Message
 
 app = Flask(__name__)
+
+
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USE_SSL'] = False
+app.config['MAIL_USERNAME'] = 'falajusta@gmail.com'  # Seu e-mail
+# app.config['MAIL_PASSWORD'] = '12345@abcde' # Senha do e-mail
+app.config['MAIL_PASSWORD'] = 'fatsavonwkuvcidekk'
+# app.config['MAIL_DEFAULT_SENDER'] = 'seu_email@gmail.com'
+
+mail = Mail(app)
 
 # Definindo o caminho do banco de dados
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -27,7 +40,11 @@ def index():
         db.session.add(denuncia)
         db.session.commit()
         print("Dados adicionados ao banco de dados")
-
+        mnsg = Message("Fala justa de" + email, sender = 'pedrovelosoj5@gmail.com',
+                       recipients=['falajusta@gmail.com'])
+        mnsg.body = denuncia_texto
+        mail.send(mnsg)
+        return "sent email" 
     denuncia = Denuncia.query.all()
     for d in denuncia:
         print(f'ID: {d.id}, Email: {d.email}, Denúncia: {d.denuncia}')
